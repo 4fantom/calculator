@@ -1,0 +1,22 @@
+.button{
+    width: 70px;
+    height: 70px;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: inherit;
+    margin: 3px;
+}
+
+.operandButton{
+    background-color: goldenrod;
+}
+
+.buttonText{
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,4 @@
+.controlMenu {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,5 @@
+.operandsMenu{
+    display: flex;
+    flex-direction: column;
+
+}

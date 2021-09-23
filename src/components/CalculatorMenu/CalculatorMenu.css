@@ -1,0 +1,15 @@
+.calculatorButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayResultWrapper {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.calculatorWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+}

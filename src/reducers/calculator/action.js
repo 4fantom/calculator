@@ -1,0 +1,5 @@
+export const add = () => ({type: "ADD_OPERATION"})
+export const minus = () => ({type: "MINUS_OPERATION"})
+export const multiply = () => ({type: "MULTIPLY_OPERATION"})
+export const divide = () => ({type: "DIVIDE_OPERATION"})
+export const setCurrentNumber = (payload) => ({type: "SET_CURRENT_NUMBER", payload})
