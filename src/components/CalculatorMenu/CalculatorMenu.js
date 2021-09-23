@@ -1,6 +1,7 @@
 import React from "react";
 import NumbersMenu from "../NumbersMenu/NumbersMenu";
 import OperandsMenu from "../OperandsMenu/OperandsMenu";
+import ResultMenu from "../ResultMenu/ResultMenu";
 import './CalculatorMenu.css'
 
 
@@ -8,8 +9,8 @@ import './CalculatorMenu.css'
 const CalculatorMenu = () => {
 
     return <div className={'calculatorWrapper'}>
-        <div className={'displayResultWrapper'}>
-            <p>something</p>
+        <div>
+            <ResultMenu/>
         </div>
         <div className={'calculatorButtonsWrapper'}>
             <NumbersMenu/>

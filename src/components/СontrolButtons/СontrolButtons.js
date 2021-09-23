@@ -1,11 +1,20 @@
 import React from "react";
 import "./СontrolButtons.css";
 import Button from "../Button/Button";
+import {clearState, storeResult} from "../../reducers/calculator/action";
 
 const ControlButtons = ({props}) => {
-    console.log(props);
     const onclickHandler = (value) => {
-        console.log(value)
+        switch (value) {
+            case "AC":
+                clearState()
+                break
+            case "Mem+":
+                storeResult();
+                break
+            default:
+                return
+        }
     }
     const controls = [ 'AC', 'Mem+'];
     return <div className={'controlMenu'}>

@@ -1,0 +1,9 @@
+.displayResultWrapper {
+    border: 1px solid black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.displayedInfo{
+
+}
