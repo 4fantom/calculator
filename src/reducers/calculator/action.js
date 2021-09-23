@@ -1,5 +1,9 @@
-export const add = () => ({type: "ADD_OPERATION"})
-export const minus = () => ({type: "MINUS_OPERATION"})
-export const multiply = () => ({type: "MULTIPLY_OPERATION"})
-export const divide = () => ({type: "DIVIDE_OPERATION"})
-export const setCurrentNumber = (payload) => ({type: "SET_CURRENT_NUMBER", payload})
+import store from "../../store";
+
+
+export const add = () => (store.dispatch({type: "ADD_OPERATION"}))
+export const minus = () => (store.dispatch({type: "MINUS_OPERATION"}))
+export const multiply = () => (store.dispatch({type: "MULTIPLY_OPERATION"}))
+export const divide = () => (store.dispatch({type: "DIVIDE_OPERATION"}))
+export const setCurrentNumber = (payload) => (store.dispatch({type: "SET_CURRENT_NUMBER", payload}))
+
